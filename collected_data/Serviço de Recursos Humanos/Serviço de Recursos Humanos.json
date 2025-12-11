@@ -1,0 +1,19 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "geral": {
+    "titular": "Luiz Antonio Sabino",
+    "cargo": "Chefe I"
+  },
+  "endereco": {
+    "bairro": "Cacuia",
+    "cep": "21921-001"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21) 3111-7705"
+    }
+  ],
+  "timestamp": "2025-12-11T10:49:04.751886"
+}

@@ -1,0 +1,15 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "endereco": {
+    "bairro": "São Conrado",
+    "cep": "22450-221"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Celular",
+      "valor": "55 21 96523-5020"
+    }
+  ],
+  "timestamp": "2025-12-11T10:44:31.258602"
+}

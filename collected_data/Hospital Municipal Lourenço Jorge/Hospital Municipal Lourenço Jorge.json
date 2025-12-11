@@ -1,0 +1,31 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "geral": {
+    "titular": "Vago",
+    "cargo": "Respondendo pela Direção"
+  },
+  "endereco": {
+    "bairro": "Barra da Tijuca",
+    "cep": "22775-003"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)3111-4603"
+    },
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)3111-4607"
+    },
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)3111-4612"
+    },
+    {
+      "tipo": "E-mail pessoal",
+      "valor": "hmlourencojorge@gmail.com"
+    }
+  ],
+  "timestamp": "2025-12-11T10:49:44.368296"
+}

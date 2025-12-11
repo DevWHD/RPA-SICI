@@ -2,25 +2,25 @@
   "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
   "decreto": "Decreto N° 57399 de 10/12/2025 )",
   "geral": {
-    "titular": "Waleska Menengat Correa Floresta",
-    "cargo": "Coordenador II"
+    "titular": "Daniel Lopes da Mata",
+    "cargo": "Subsecretário"
   },
   "endereco": {
     "logradouro": "Rua Afonso Cavalcanti",
     "numero": "455",
-    "complemento": "825",
+    "complemento": "801",
     "bairro": "Cidade Nova",
     "cep": "20211-110"
   },
   "comunicacoes": [
     {
-      "tipo": "Telefone corporativo",
-      "valor": "(21) 2224-5021"
+      "tipo": "E-mail corporativo",
+      "valor": "damata.subhue@gmail.com"
     },
     {
-      "tipo": "E-mail corporativo",
-      "valor": "coordenacaoauditoriasms@regulacaoriorj.com.br"
+      "tipo": "Telefone corporativo",
+      "valor": "(21)2976-1643"
     }
   ],
-  "timestamp": "2025-12-10T20:23:23.820424"
+  "timestamp": "2025-12-11T10:41:38.101486"
 }

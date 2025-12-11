@@ -2,29 +2,25 @@
   "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
   "decreto": "Decreto N° 57399 de 10/12/2025 )",
   "geral": {
-    "titular": "Márcio Leal Alves Ferreira",
-    "cargo": "Subsecretário"
+    "titular": "Paulo de Oliveira Silveira",
+    "cargo": "Superintendente"
   },
   "endereco": {
     "logradouro": "Rua Afonso Cavalcanti",
     "numero": "455",
-    "complemento": "Bloco I - 7º andar - Sala 747",
+    "complemento": "sala 801",
     "bairro": "Cidade Nova",
     "cep": "20211-110"
   },
   "comunicacoes": [
     {
-      "tipo": "Telefone corporativo",
-      "valor": "(21) 3971-1570"
-    },
-    {
-      "tipo": "Telefone corporativo",
-      "valor": "(21) 2976.2215"
-    },
-    {
       "tipo": "E-mail corporativo",
-      "valor": "subgsmsrio@gmail.com"
+      "valor": "sue.smsrj@gmail.com"
+    },
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "2976 1643"
     }
   ],
-  "timestamp": "2025-12-10T20:23:48.438391"
+  "timestamp": "2025-12-11T10:51:18.802203"
 }

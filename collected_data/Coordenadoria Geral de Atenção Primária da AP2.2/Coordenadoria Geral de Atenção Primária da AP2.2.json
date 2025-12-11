@@ -1,0 +1,21 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "endereco": {
+    "logradouro": "Estrada da Gávea",
+    "numero": "522",
+    "complemento": "Rocinha",
+    "cep": "22451-265"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21) 3613-8280"
+    },
+    {
+      "tipo": "E-mail corporativo",
+      "valor": "coord.adm.uparocinha@institutognosis.org.br"
+    }
+  ],
+  "timestamp": "2025-12-11T10:48:46.518777"
+}

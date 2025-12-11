@@ -179,7 +179,9 @@ class SiciSmsScraper:
         # Clicar no ÍCONE de expansão de SMS (não no texto)
         # O TreeView ASP.NET tem dois links: um para expandir (com imagem) e outro para selecionar (com texto)
         print("[*] Clicando no ícone de expansão de SMS...")
-        expand_clicked = self.page.evaluate(f"""
+        
+        # Primeiro, encontrar o link
+        expand_link_info = self.page.evaluate(f"""
             (nodeId) => {{
                 // O ícone de expansão está em um <a> com <img> no mesmo <tr>
                 let textLink = document.getElementById(nodeId);
@@ -193,13 +195,61 @@ class SiciSmsScraper:
                 for (let link of allLinks) {{
                     let img = link.querySelector('img');
                     if (img && (img.alt.includes('Expand') || img.alt.includes('Collapse'))) {{
-                        link.click();
                         return true;
                     }}
                 }}
                 return false;
             }}
         """, sms_node_id)
+        
+        if not expand_link_info:
+            print("[!] Ícone de expansão de SMS não encontrado")
+            return
+        
+        # Sem ID, vamos usar um seletor que encontre o link direto
+        # O link de expansão está dentro de uma <tr> que contém o link com texto (sms_node_id)
+        # e tem uma imagem com alt contendo "Expand" ou "Collapse"
+        
+        expand_link_selector = f"#{sms_node_id}"
+        expand_link_element = self.page.query_selector(expand_link_selector)
+        
+        if not expand_link_element:
+            print("[!] SMS node not found")
+            return
+        
+        # Encontrar a TR pai
+        tr_element = self.page.evaluate(f"""
+            (selector) => {{
+                let el = document.querySelector(selector);
+                if (!el) return null;
+                let tr = el.closest('tr');
+                return tr;
+            }}
+        """, expand_link_selector)
+        
+        if not tr_element:
+            print("[!] TR parent not found")
+            return
+        
+        # Agora clicar no link que contém a imagem de expansão
+        # Vou clicar diretamente via coordenadas do elemento da imagem
+        try:
+            # Encontrar a imagem de expansão e clicar nela
+            expand_img = self.page.query_selector(f"#{sms_node_id} ~ img, {expand_link_selector} ~ * img")
+            if not expand_img:
+                # Tentar outra abordagem: encontrar qualquer <a> na TR que tenha imagem
+                expand_link = self.page.query_selector(f"tr:has(#{sms_node_id}) a:has(img)")
+                if expand_link:
+                    expand_link.click(timeout=5000)
+                    expand_clicked = True
+                else:
+                    expand_clicked = False
+            else:
+                expand_img.click(timeout=5000)
+                expand_clicked = True
+        except Exception as e:
+            print(f"[!] Falha ao clicar: {e}")
+            expand_clicked = False
         
         if not expand_clicked:
             print("[!] Ícone de expansão de SMS não encontrado")
@@ -222,14 +272,20 @@ class SiciSmsScraper:
         
         self.page.wait_for_timeout(ROUND_TIMEOUT)
         
-        # Extrair informacoes do SMS
+        # Aguardar um pouco mais antes de processar filhos
+        # Isso é crítico para o ASP.NET postback completar
+        self.page.wait_for_timeout(2000)
+        
+        # IMPORTANTE: Processar filhos ANTES de extrair informações
+        # porque _extract_node_info() pode mudar o DOM (via eventos em dropdowns)
+        print("   [*] Procurando filhos do SMS...")
+        self._process_children_recursive("SMS", depth=0, skip_click=True, parent_element=sms_node_id)
+        
+        # DEPOIS extrair informacoes do SMS
         print("[*] Extraindo informacoes do SMS...")
         sms_info = self._extract_node_info()
         self._save_node_data("SMS", sms_info)
         print("   [OK] Informacoes do SMS coletadas\n")
-        
-        # Processar filhos do SMS recursivamente, passando o ID diretamente
-        self._process_children_recursive("SMS", depth=0, skip_click=True, parent_element=sms_node_id)
     
     
     def _process_children_recursive(self, parent_node_name: str, depth: int = 0, skip_click: bool = False, parent_element: str = None):
@@ -305,41 +361,70 @@ class SiciSmsScraper:
                     self.page.wait_for_timeout(ROUND_TIMEOUT + 1000)
             else:
                 print(f"{indent}[!] Ícone de expansão não encontrado para '{parent_node_name}'")
-        
-        # Também aguardar que o container de filhos fique visível
-        try:
-            container_id = self.page.evaluate(f"""
-                (parentId) => {{
-                    let match = parentId.match(/t(\\d+)$/);
-                    if (!match) return null;
-                    return 'ContentPlaceHolder1_ua_treeviewn' + match[1] + 'Nodes';
-                }}
-            """, parent_element)
+        else:
+            # Se skip_click=True, ainda precisa aguardar um pouco para o DOM estar pronto
+            # Especialmente importante na primeira chamada quando SMS foi expandido
+            # Usar wait_for_load_state como no caso acima
+            try:
+                self.page.wait_for_load_state('networkidle', timeout=10000)
+            except:
+                self.page.wait_for_timeout(ROUND_TIMEOUT + 1000)
+            # Aguardar extra para garantir que o JavaScript renderizou tudo
+            self.page.wait_for_timeout(3000)  # Aumentado para 3s
             
-            if container_id:
-                self.page.wait_for_selector(f"#{container_id}", timeout=5000, state='visible')
-        except:
-            # Se falhar a espera por visibilidade, continuar mesmo assim
-            pass
+            # Também aguardar que o container de filhos fique visível
+            # Este é um passo CRÍTICO quando skip_click=True
+            try:
+                container_id = self.page.evaluate(f"""
+                    (parentId) => {{
+                        let match = parentId.match(/t(\\d+)i?$/);
+                        if (!match) return null;
+                        return 'ContentPlaceHolder1_ua_treeviewn' + match[1] + 'Nodes';
+                    }}
+                """, parent_element)
+                
+                if container_id:
+                    # Tentar esperar o container ficar visível
+                    try:
+                        self.page.wait_for_selector(f"#{container_id}", timeout=5000, state='attached')
+                    except:
+                        pass
+            except:
+                pass
         
         # Buscar filhos diretos usando JavaScript
         children = self.page.evaluate(f"""
             (parentId) => {{
                 // Converter parentId para container ID
-                let containerId = parentId.replace(/t(\\d+)$/, 'n$1Nodes');
+                // Exemplo: parentId = ContentPlaceHolder1_ua_treeviewt0i ou ContentPlaceHolder1_ua_treeviewt31
+                //          container = ContentPlaceHolder1_ua_treeviewn0Nodes ou ContentPlaceHolder1_ua_treeviewn31Nodes
+                let match = parentId.match(/t(\\d+)i?$/);
+                if (!match) return [];
+                
+                let nodeIndex = match[1];
+                let containerId = 'ContentPlaceHolder1_ua_treeviewn' + nodeIndex + 'Nodes';
                 let childrenContainer = document.getElementById(containerId);
                 
-                if (!childrenContainer) return [];
+                if (!childrenContainer) {{
+                    return [];
+                }}
                 
-                // Coletar links filhos - O container agora deve estar preenchido
-                let childLinks = childrenContainer.querySelectorAll('a[id*="treeview"]');
+                // Coletar links filhos do container, deduplicando por ID
                 let children = [];
+                let seenIds = new Set();
+                let childLinks = childrenContainer.querySelectorAll('a[id*="treeview"]');
                 
                 for (let link of childLinks) {{
+                    let linkId = link.id;
+                    
+                    // Pular se já vimos esse ID
+                    if (seenIds.has(linkId)) continue;
+                    seenIds.add(linkId);
+                    
                     let text = link.innerText.trim();
                     if (text && text !== '0') {{  // Ignorar placeholder "0"
                         children.push({{
-                            id: link.id,
+                            id: linkId,
                             text: text
                         }});
                     }}
@@ -350,6 +435,7 @@ class SiciSmsScraper:
         """, parent_element)
         
         if not children or len(children) == 0:
+            print(f"{indent}[DEBUG] Nenhum filho encontrado. parent_element={parent_element}")
             print(f"{indent}[*] No '{parent_node_name}' nao tem filhos")
             return
         

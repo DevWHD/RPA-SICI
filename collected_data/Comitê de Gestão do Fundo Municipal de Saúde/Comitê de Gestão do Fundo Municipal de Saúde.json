@@ -1,12 +1,30 @@
 {
   "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
   "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "geral": {
+    "titular": "Paula Fiorito de Campos Ferreira",
+    "cargo": "Assessor Chefe I"
+  },
   "endereco": {
     "logradouro": "Rua Afonso Cavalcanti",
     "numero": "455",
-    "complemento": "818 - BL.1",
+    "complemento": "701",
     "bairro": "Cidade Nova",
     "cep": "20211-110"
   },
-  "timestamp": "2025-12-10T20:22:49.639391"
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)3971-1116"
+    },
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)2976-2035"
+    },
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)2976-2036"
+    }
+  ],
+  "timestamp": "2025-12-11T10:40:58.598911"
 }

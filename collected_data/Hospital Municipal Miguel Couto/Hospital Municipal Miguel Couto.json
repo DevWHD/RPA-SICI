@@ -1,0 +1,23 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "geral": {
+    "titular": "Vago",
+    "cargo": "Respondendo pela Direção"
+  },
+  "endereco": {
+    "bairro": "Leblon",
+    "cep": "22430-160"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)3111-3604 / 3608"
+    },
+    {
+      "tipo": "E-mail corporativo",
+      "valor": "hmmc.direcao@gmail.com"
+    }
+  ],
+  "timestamp": "2025-12-11T10:46:29.665831"
+}
