@@ -1,0 +1,26 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "geral": {
+    "titular": "Ana Claudia Leitão Sobral",
+    "cargo": "Gerente II"
+  },
+  "endereco": {
+    "logradouro": "Estrada dos Bandeirantes",
+    "numero": "1700",
+    "complemento": "Galpão 115",
+    "bairro": "Taquara",
+    "cep": "22775-109"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21)3432-4512"
+    },
+    {
+      "tipo": "E-mail corporativo",
+      "valor": "ger.atendimentomandado@gmail.com"
+    }
+  ],
+  "timestamp": "2025-12-10T20:24:20.116390"
+}

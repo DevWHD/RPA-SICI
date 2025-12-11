@@ -1,0 +1,1916 @@
+[
+  {
+    "tableIndex": 0,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 3,
+        "cells": [
+          "",
+          "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional",
+          "SICI\nSistema Integrado de Codificação Institucional"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 1,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "Data de Referência\n  \nUA - Unidade Administrativa\nUCM - Unidade Consumidora de Materiais\nUAM - Unidade de Almoxarifado de Materiais\nUC - Unidade Contábil\nUPRJ - Unidade Projeto\nUO - Unidade Orçamentária\nUATIV - Unidade Atividade\nUSI - Unidade do Sistema Municipal de Informática\nUSCS - Unidade do Sistema Municipal de Comunicação Social\nUEPCRJ - Unidade Externa\nMFG - Macrofunção de Governo\nPEG - Política Especial de Governo\nCMFG - Componente de Macrofunção de Governo\nUCG - Unidade Consumidora de Gêneros\nUS - Unidade de Saúde\nCRESP - Centro de Responsabilidade\nUSS - Unidade de Serviços de Saúde\nUPR - Processo\nLOTERGON - Lotação do ERGON\nUSMA - Unidade do Sistema Municipal de Administração\nUSAG - Unidade do Subsistema Administrativo Geral\nUSRH - Unidade do Subsistema de Recursos Humanos\nUSIE - Unidade do Subsistema de Infra-estrutura\nUSGI - Unidade do Subsistema de Gestão Institucional\nUSRO - Unidade do Subsistema de Retaguarda Operacional\nUGRH - Unidade Gestora de Recursos Humanos\nUOS - Unidade Administrada por Organização Social\nUDA - Unidade de Difícil Acesso\nFIN - Unidade Financeira\nACR - Unidade de Captação de Recursos\nUPL - Unidade Patrimonial\nUE - Unidade Escolar\nPesquisar",
+          "Login"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 2,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 3,
+        "cells": [
+          "",
+          "",
+          "PCRJ"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 3,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "GBP"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 4,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 5,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "GVP"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 6,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 7,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "CASA CIVIL"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 8,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 9,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMG"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 10,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 11,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMCG"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 12,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 13,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMF"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 14,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 15,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMA"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 16,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 17,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMIT"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 18,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 19,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMDU"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 20,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 21,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMDE"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 22,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 23,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMI"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 24,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 25,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMTR"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 26,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 27,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SECONSERVA"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 28,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 29,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SME"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 30,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 31,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMAS"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 32,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 33,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMS"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 34,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 35,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMTE"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 36,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 37,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMC"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 38,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 39,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMAC"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 40,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 41,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMPD"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 42,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 43,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMEL"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 44,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 45,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMH"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 46,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 47,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMCT"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 48,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 49,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SEMESQV"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 50,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 51,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SEOP"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 52,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 53,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMPDA"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 54,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 55,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SMTUR-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 56,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 57,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SEDECON"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 58,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 59,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SPM-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 60,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 61,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "JUV-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 62,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 63,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SEAC-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 64,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 65,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SECID"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 66,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 67,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SES-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 68,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 69,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SEIM"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 70,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 71,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SINC-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 72,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 73,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "SEDHIR"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 74,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 75,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "CGM-Rio"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 76,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 77,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "PGM"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 78,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 79,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "PREVI-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 80,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 81,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "IPP"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 82,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 83,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "GM-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 84,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 85,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "GEO-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 86,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 87,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIO-ÁGUAS"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 88,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 89,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "FPJ"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 90,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 91,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "PLANETÁRIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 92,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 93,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIO-ZOO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 94,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 95,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "CIDADE DAS ARTES"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 96,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 97,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "MULTIRIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 98,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 99,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIOFILME"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 100,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 101,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "IPLANRIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 102,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 103,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "IMPRENSA DA CIDADE"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 104,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 105,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "CCPAR"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 106,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 107,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIO-URBE"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 108,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 109,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIOTUR"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 110,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 111,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIOSAÚDE"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 112,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 113,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIOLUZ"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 114,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 115,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "COMLURB"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 116,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 117,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "CET-RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 118,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 119,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "CMTC Rio"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 120,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 121,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "RIOCENTRO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 122,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 123,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "INVEST.RIO"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 124,
+    "rows": [
+      {
+        "rowIndex": 0,
+        "cellCount": 4,
+        "cells": [
+          "",
+          "",
+          "",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 125,
+    "rows": [
+      {
+        "rowIndex": 1,
+        "cellCount": 2,
+        "cells": [
+          "Telefone corporativo",
+          "2976-2815"
+        ]
+      },
+      {
+        "rowIndex": 2,
+        "cellCount": 2,
+        "cells": [
+          "Telefone corporativo",
+          "2976-2812"
+        ]
+      },
+      {
+        "rowIndex": 3,
+        "cellCount": 2,
+        "cells": [
+          "E-mail corporativo",
+          "gabinetedoprefeito@prefeitura.rio"
+        ]
+      }
+    ]
+  },
+  {
+    "tableIndex": 126,
+    "rows": [
+      {
+        "rowIndex": 1,
+        "cellCount": 1,
+        "cells": [
+          "Versão 2025.11.28.13 - ©2025 - Desenvolvido por IPLANRIO\nPrefeitura da Cidade do Rio de Janeiro"
+        ]
+      }
+    ]
+  }
+]

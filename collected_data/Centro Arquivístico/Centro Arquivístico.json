@@ -1,0 +1,30 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57399 de 10/12/2025 )",
+  "geral": {
+    "titular": "Rachel Gimenez de Freitas de Carvalho",
+    "cargo": "Coordenador I"
+  },
+  "endereco": {
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "Bloco I - 6º andar - Sala 601",
+    "bairro": "Cidade Nova",
+    "cep": "20211-110"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21) 3971-3992"
+    },
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "(21) 3971-2940"
+    },
+    {
+      "tipo": "E-mail corporativo",
+      "valor": "subg.cgp.sms.rio@gmail.com"
+    }
+  ],
+  "timestamp": "2025-12-10T20:24:38.641391"
+}
